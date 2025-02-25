@@ -60,7 +60,7 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold text-black">7. Contact Us</h2>
           <p className="mt-2 text-midGrey">
             If you have any questions about these Terms of Service, please contact us at{" "}
-            <a href="mailto:hello@worldmobile.club" className="text-primary hover:underline">
+            <a href="mailto:hello@worldmobile.club" className="hover:underline">
             hello@worldmobile.club
             </a>.
           </p>
