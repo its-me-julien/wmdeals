@@ -6,10 +6,6 @@ export default function Document() {
       <Head>
         {/* Primary Meta Tags */}
         <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="Switch to World Mobile Deals for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, fast and reliable connectivity."
-        />
         <meta name="robots" content="index, follow" />
 
         {/* Favicon & App Icons */}

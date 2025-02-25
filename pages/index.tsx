@@ -3,12 +3,24 @@ import Plans from "@/components/Plans";
 import Features from "@/components/Features";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
-
+import Head from "next/head";
 
 export default function Home() {
   return (
     <main className="bg-background text-foreground">
       <Header />
+
+      
+
+    <Head>
+    <title>World Mobile Deals - No-Contract Mobile Phone Plans</title>
+        <meta
+          name="description"
+          content="Switch to World Mobile Deals for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, fast and reliable connectivity."
+        />
+        <link rel="canonical" href="https://worldmobiledeals.com/" />
+      </Head>
+
       <Plans />
       <Features />
       <Testimonials />
