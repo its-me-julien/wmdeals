@@ -6,9 +6,9 @@ const plans = [
   {
     id: "essential-usa",
     name: "Essential USA",
-    description: "Best for Individuals",
+    description: "Best for Individuals. Unlimited calls, texts, and data with 10GB high‑speed priority access.",
     price: "$59.00",
-    priceValue: 59.00,
+    priceValue: 59.0,
     features: [
       "Unlimited calls, texts, and data with 10GB high‑speed priority access.",
       "Nationwide coverage with built-in SIM security insurance.",
@@ -16,27 +16,29 @@ const plans = [
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Select Essential Plan",
+    image: "/plans/essential.jpg",
   },
   {
     id: "advanced-usa",
     name: "Advanced USA",
     description: "Best for Power Users",
     price: "$85.00",
-    priceValue: 85.00,
+    priceValue: 85.0,
     features: [
-      "Unlimited calls, texts, and data with 30GB high‑speed priority access.",
+      "Unlimited calls, texts, and data with 30GB high‑speed priority access. Nationwide coverage with built-in SIM security insurance.",
       "Nationwide coverage with built-in SIM security insurance.",
       "Your personal data, secured with encryption.",
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Select Advanced Plan",
+    image: "/plans/advanced.jpg",
   },
   {
     id: "global-access",
     name: "Global Access (Data Only)",
-    description: "Best for Travelers",
+    description: "Best for Travelers. 20GB of high‑speed data in over 60 countries.",
     price: "$70.00",
-    priceValue: 70.00,
+    priceValue: 70.0,
     features: [
       "20GB of high‑speed data in over 60 countries.",
       "Built-in SIM security insurance.",
@@ -44,6 +46,7 @@ const plans = [
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Select Global Plan",
+    image: "/plans/global.jpg",
   },
 ];
 
@@ -57,6 +60,7 @@ export default function Plans() {
         "@type": "Product",
         "name": plan.name,
         "description": plan.description,
+        "image": plan.image,
         "offers": {
           "@type": "Offer",
           "priceCurrency": "USD",

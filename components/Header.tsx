@@ -56,7 +56,7 @@ export default function Header() {
                 World Mobile is breaking the cycle with two US nationwide phone plans and a Global Access plan—no contracts, no tracking.
                 <br />
                 <br />
-                Crafted for those <span className="text-primary font-semibold">who refuse to be controlled.</span>
+                For those <span className="text-primary font-semibold">who refuse to be controlled.</span>
               </p>
 
               {/* CTA Buttons */}
