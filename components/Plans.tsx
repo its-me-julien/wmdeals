@@ -6,7 +6,7 @@ const plans = [
   {
     id: "essential-usa",
     name: "Essential USA",
-    description: "Best for Individuals. Unlimited calls, texts, and data with 10GB high‑speed priority access.",
+    description: "Best for Individuals.",
     price: "$59.00",
     priceValue: 59.0,
     features: [
@@ -36,7 +36,7 @@ const plans = [
   {
     id: "global-access",
     name: "Global Access (Data Only)",
-    description: "Best for Travelers. 20GB of high‑speed data in over 60 countries.",
+    description: "Best for Travelers.",
     price: "$70.00",
     priceValue: 70.0,
     features: [
