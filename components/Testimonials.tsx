@@ -86,9 +86,9 @@ export default function Testimonials() {
               </div>
               {/* Testimonial Text */}
               <p className="text-sm leading-tight text-gray-700">
-                <span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>
+                <span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>
                 {testimonial.text}
-                <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span>
+                <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span>
               </p>
             </div>
           ))}
