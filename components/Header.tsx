@@ -30,8 +30,8 @@ export default function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % rotatingTexts.length);
-    }, 3000); // Change text every 3 seconds
-
+    }, 2000); // Change text every 2 seconds instead of 3
+  
     return () => clearInterval(interval);
   }, []);
 
@@ -59,7 +59,7 @@ export default function Header() {
       </header>
 
       {/* Hero Section */}
-      <div className="relative isolate pt-24 sm:pt-32 lg:pb-40">
+      <div className="relative isolate pt-24 sm:pt-32 lg:pb-4">
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
@@ -89,18 +89,19 @@ export default function Header() {
 
               {/* Rotating Text Banner (TypeScript Safe) */}
               <div className="mt-6 h-10 flex justify-center items-center overflow-hidden">
-                <AnimatePresence mode="wait">
-                  <motion.span
-                    key={index}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.6 }}
-                    className="text-xl font-semibold text-primary"
-                  >
-                    {rotatingTexts[index]}
-                  </motion.span>
-                </AnimatePresence>
+              <AnimatePresence mode="wait">
+              <motion.span
+                key={index}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.4 }}
+                className="text-xl font-semibold text-primary"
+              >
+                {rotatingTexts[index]}
+              </motion.span>
+            </AnimatePresence>
+
               </div>
 
             </div>
