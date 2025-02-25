@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           {/* Branding & Social */}
           <div className="space-y-6">
-         <a href="#" className="flex items-center space-x-3">
+         <a href="https://worldmobiledeals.com/" className="flex items-center space-x-3">
                        <Image 
                          src="/deals-logo.png" 
                          alt="World Mobile Deals" 
@@ -54,7 +54,7 @@ export default function Footer() {
                        />
                        <span className="text-lg font-semibold tracking-wide">World Mobile Deals</span>
                      </a>
-                     
+
           <p className="text-sm text-lightGrey">
             Get the best prices and deals on World Mobile plans and home internet.
           </p>
