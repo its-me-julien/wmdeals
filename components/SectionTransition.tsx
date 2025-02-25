@@ -4,7 +4,7 @@ export default function SectionTransition() {
   return (
     <div className="relative w-full">
       {/* Black Top Section */}
-      <div className="bg-black w-full h-12"></div>
+      <div className="bg-black w-full h-24"></div>
 
       {/* SVG Wave Transition */}
       <svg
