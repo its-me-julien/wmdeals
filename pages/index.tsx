@@ -5,7 +5,9 @@ import Coverage from "@/components/Coverage";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
 import Banner from "@/components/Banner";
+import Ticker from "@/components/Ticker";
 import Head from "next/head";
+
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
         />
         <link rel="canonical" href="https://worldmobiledeals.com/" />
       </Head>
-
+      <Ticker />
       <Plans />
       <Features />
       <Testimonials />
