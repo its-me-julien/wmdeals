@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { WifiIcon, GlobeAltIcon } from "@heroicons/react/20/solid";
+
 
 export default function Coverage() {
   return (
@@ -38,18 +38,18 @@ export default function Coverage() {
             <ul role="list" className="space-y-8">
               {/* Feature 1 */}
               <li className="flex gap-x-3">
-                <WifiIcon aria-hidden="true" className="mt-1 h-6 w-6 flex-none text-black" />
+               
                 <span>
-                  <strong className="font-semibold text-black">Not Just a Reseller.</strong> 
+                  <strong className="font-semibold text-black">Not Just a Reseller.</strong><br></br> 
                   Most providers resell coverage. World Mobile operates as a full Mobile Network Operator (MNO), giving you direct access to its next-gen network.
                 </span>
               </li>
 
               {/* Feature 2 */}
               <li className="flex gap-x-3">
-                <GlobeAltIcon aria-hidden="true" className="mt-1 h-6 w-6 flex-none text-black" />
+               
                 <span>
-                  <strong className="font-semibold text-black">The Best of Both Worlds.</strong> 
+                  <strong className="font-semibold text-black">The Best of Both Worlds.</strong><br></br>
                   AirNodes bring connectivity where others don&#39;t. When needed, World Mobile seamlessly switches to leading U.S. carrier networks—so you&#39;re always covered, no matter where you are.
                 </span>
               </li>
