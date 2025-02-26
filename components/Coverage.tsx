@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Coverage() {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section id="coverage" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div id="coverage" className="mx-auto max-w-4xl text-center">

@@ -30,7 +30,7 @@ const plans = [
       "Your personal data, secured with encryption.",
       "No contracts. No data selling. No corporate tracking.",
     ],
-    buttonText: "Select Advanced Plan",
+    buttonText: "Get a Deal",
     image: "https://worldmobiledeals.com/plans/advanced.jpg",
   },
   {
@@ -45,7 +45,7 @@ const plans = [
       "Your personal data, secured with encryption.",
       "No contracts. No data selling. No corporate tracking.",
     ],
-    buttonText: "Select Global Plan",
+    buttonText: "Get a Deal",
     image: "https://worldmobiledeals.com/plans/global.jpg",
   },
 ];
