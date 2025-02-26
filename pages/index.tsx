@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Coverage from "@/components/Coverage";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
+import Banner from "@/components/Banner";
 import Head from "next/head";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Features />
       <Testimonials />
       <Coverage />  
+      <Banner />
       <FAQ />
     </main>
   );
