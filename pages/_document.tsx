@@ -19,7 +19,7 @@ export default function Document() {
         <meta property="og:title" content="World Mobile Deals - No-Contract Mobile Phone Plans" />
         <meta
           property="og:description"
-          content="Switch to World Mobile for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, and reliable connectivity."
+          content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
         <meta property="og:url" content="https://worldmobiledeals.com/" />
         <meta property="og:type" content="website" />
@@ -30,7 +30,7 @@ export default function Document() {
         <meta name="twitter:title" content="World Mobile Deals - No-Contract Mobile Phone Plans" />
         <meta
           name="twitter:description"
-          content="Switch to World Mobile for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, and reliable connectivity."
+          content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
         <meta name="twitter:image" content="https://worldmobiledeals.com/social.png" />
 
@@ -41,7 +41,7 @@ export default function Document() {
           "name": "World Mobile Deals",
           "url": "https://worldmobiledeals.com/",
           "logo": "https://worldmobiledeals.com/web-app-manifest-512x512.png",
-          "description": "Switch to World Mobile for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, and reliable connectivity."
+          "description": "Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         })}} />
       </Head>
       <body className="antialiased">

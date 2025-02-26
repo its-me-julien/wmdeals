@@ -20,7 +20,7 @@ export default function Home() {
     <title>World Mobile Deals - No-Contract Mobile Phone Plans</title>
         <meta
           name="description"
-          content="Switch to World Mobile Deals for no-contract mobile phone plans. Enjoy better privacy, nationwide coverage, fast and reliable connectivity."
+          content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
         <link rel="canonical" href="https://worldmobiledeals.com/" />
       </Head>
