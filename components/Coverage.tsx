@@ -15,7 +15,7 @@ export default function Coverage() {
 
         {/* Subtext */}
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-midGrey">
-          Beyond traditional coverage. World Mobile combines decentralized AirNodes with trusted partner networks, delivering unmatched reliability—even in places others fail.
+          Beyond traditional coverage. World Mobile combines its AirNodes network with trusted partner networks, delivering unmatched reliability—even in places others fail.
         </p>
 
         {/* Layout: Image & Content */}
@@ -41,7 +41,7 @@ export default function Coverage() {
                
                 <span>
                   <strong className="font-semibold text-black">Not Just a Reseller.</strong><br></br> 
-                  Most providers resell coverage. World Mobile operates as a full Mobile Network Operator (MNO), giving you direct access to its next-gen network.
+                  Most providers resell coverage. World Mobile operates as a full Mobile Network Operator (MNO), giving you direct access to its network.
                 </span>
               </li>
 
