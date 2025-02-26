@@ -18,7 +18,7 @@ export default function TermsOfService() {
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-black">1. Introduction</h2>
           <p className="mt-2 text-midGrey">
-            Welcome to World Mobile Deals. We showcase the latest discounts, exclusive offers, and promotions available for World Mobile Phone Plans. As an affiliate website, we earn a commission on successful referrals. By accessing our site, you agree to these Terms of Service.
+            Welcome to World Mobile Deals. We showcase the latest discounts, exclusive offers, and promotions available for World Mobile Phone Plans and World Mobile Home Internet Plans. As an affiliate website, we earn a commission on successful referrals. By accessing our site, you agree to these Terms of Service.
           </p>
         </section>
 

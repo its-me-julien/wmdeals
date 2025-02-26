@@ -58,11 +58,11 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="mt-6">
-          <h2 className="text-xl font-semibold text-black">7. Data Security</h2>
-          <p className="mt-2 text-midGrey">
-            We employ security measures via Google Analytics (GA4) and Cloudflare to protect the anonymised data we collect.
-          </p>
-        </section>
+        <h2 className="text-xl font-semibold text-black">7. Data Security</h2>
+        <p className="mt-2 text-midGrey">
+          We use Google Analytics (GA4) and Cloudflare Analytics to collect anonymised usage data. In addition, Cloudflare provides robust security measures to safeguard our website.
+        </p>
+      </section>
 
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-black">8. Changes to This Privacy Policy</h2>
