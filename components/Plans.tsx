@@ -15,7 +15,7 @@ const plans = [
       "Your personal data, secured with encryption.",
       "No contracts. No data selling. No corporate tracking.",
     ],
-    buttonText: "Select Essential Plan",
+    buttonText: "Get a Deal",
     image: "https://worldmobiledeals.com/plans/essential.jpg",
   },
   {
