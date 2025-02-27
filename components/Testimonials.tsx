@@ -66,7 +66,7 @@ export default function Testimonials() {
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+            <div key={index} className="bg-white border border-gray-200 rounded-lg p-6 shadow-xs">
               <div className="flex items-center mb-4">
                 {/* User Avatar using Next.js Image */}
                 <div className="overflow-hidden rounded-full w-12 h-12 bg-gray-50 border border-gray-200 relative">

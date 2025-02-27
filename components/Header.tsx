@@ -82,7 +82,7 @@ export default function Header() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#plans"
-                  className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-primary hover:text-black transition"
+                  className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-xs hover:bg-primary hover:text-black transition"
                 >
                   View Plans
                 </a>

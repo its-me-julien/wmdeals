@@ -131,11 +131,11 @@ export default function FAQ() {
                     <span className="ml-6 flex h-7 items-center">
                       <PlusSmallIcon
                         aria-hidden="true"
-                        className="block h-6 w-6 group-data-[open]:hidden"
+                        className="block h-6 w-6 group-data-open:hidden"
                       />
                       <MinusSmallIcon
                         aria-hidden="true"
-                        className="hidden h-6 w-6 group-data-[open]:block"
+                        className="hidden h-6 w-6 group-data-open:block"
                       />
                     </span>
                   </DisclosureButton>
