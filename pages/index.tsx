@@ -22,7 +22,7 @@ export default function Home() {
       
 
       <Head>
-        <title>WM Deals - No-Contract Mobile Plans & Deals</title>
+        <title>World Mobile Deals - The Best Web 3 Mobile Plans Deals</title>
         <meta
             name="description"
             content="Find the best no-contract mobile plans with privacy-focused features, nationwide coverage, and reliable connectivity. Compare top offers at WM Deals."
