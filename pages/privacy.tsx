@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
           name="description"
           content="Read the Privacy Policy for World Mobile Deals. Learn how we collect, use, and protect your data."
         />
-        <link rel="canonical" href="https://worldmobiledeals.com/privacy/" />
+        <link rel="canonical" href="https://wm.deals/privacy/" />
       </Head>
       <main className="max-w-3xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold text-black">Privacy Policy</h1>
@@ -75,8 +75,8 @@ export default function PrivacyPolicy() {
           <h2 className="text-xl font-semibold text-black">9. Contact Us</h2>
           <p className="mt-2 text-midGrey">
             If you have any questions about this Privacy Policy, please contact us at{" "}
-            <a href="mailto:hello@worldmobiledeals.com" className="hover:underline">
-            hello@worldmobiledeals.com
+            <a href="mailto:hello@wm.deals" className="hover:underline">
+            hello@wm.deals
             </a>.
           </p>
         </section>

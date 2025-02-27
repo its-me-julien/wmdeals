@@ -22,7 +22,7 @@ export default function Home() {
           name="description"
           content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
-        <link rel="canonical" href="https://worldmobiledeals.com/" />
+        <link rel="canonical" href="https://wm.deals/" />
       </Head>
       <Ticker />
       <Plans />

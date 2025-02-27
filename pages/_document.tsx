@@ -21,9 +21,9 @@ export default function Document() {
           property="og:description"
           content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
-        <meta property="og:url" content="https://worldmobiledeals.com/" />
+        <meta property="og:url" content="https://wm.deals/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://worldmobiledeals.com/social.png" />
+        <meta property="og:image" content="https://wm.deals/social.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,15 +32,15 @@ export default function Document() {
           name="twitter:description"
           content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         />
-        <meta name="twitter:image" content="https://worldmobiledeals.com/social.png" />
+        <meta name="twitter:image" content="https://wm.deals/social.png" />
 
         {/* Structured Data (JSON-LD for SEO) */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "World Mobile Deals",
-          "url": "https://worldmobiledeals.com/",
-          "logo": "https://worldmobiledeals.com/web-app-manifest-512x512.png",
+          "url": "https://wm.deals/",
+          "logo": "https://wm.deals/web-app-manifest-512x512.png",
           "description": "Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         })}} />
       </Head>

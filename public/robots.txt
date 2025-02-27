@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://worldmobiledeals.com/sitemap.xml
+Sitemap: https://wm.deals/sitemap.xml

@@ -9,7 +9,7 @@ export default function TermsOfService() {
           name="description"
           content="Read the Terms of Service for World Mobile Deals. Understand the rules and conditions for using our services."
         />
-        <link rel="canonical" href="https://worldmobiledeals.com/terms/" />
+        <link rel="canonical" href="https://wm.deals/terms/" />
       </Head>
       <main className="max-w-3xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold text-black">Terms of Service</h1>
@@ -61,8 +61,8 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold text-black">7. Contact Us</h2>
           <p className="mt-2 text-midGrey">
             If you have any questions about these Terms of Service, please contact us at{" "}
-            <a href="mailto:hello@worldmobiledeals.com" className="hover:underline">
-            hello@worldmobiledeals.com
+            <a href="mailto:hello@wm.deals" className="hover:underline">
+            hello@wm.deals
             </a>.
           </p>
         </section>

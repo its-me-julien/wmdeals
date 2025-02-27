@@ -16,7 +16,7 @@ const plans = [
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Get a Deal",
-    image: "https://worldmobiledeals.com/plans/essential.jpg",
+    image: "https://wm.deals/plans/essential.jpg",
   },
   {
     id: "advanced-usa",
@@ -31,7 +31,7 @@ const plans = [
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Get a Deal",
-    image: "https://worldmobiledeals.com/plans/advanced.jpg",
+    image: "https://wm.deals/plans/advanced.jpg",
   },
   {
     id: "global-access",
@@ -46,7 +46,7 @@ const plans = [
       "No contracts. No data selling. No corporate tracking.",
     ],
     buttonText: "Get a Deal",
-    image: "https://worldmobiledeals.com/plans/global.jpg",
+    image: "https://wm.deals/plans/global.jpg",
   },
 ];
 

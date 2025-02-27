@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           {/* Branding & Social */}
           <div className="space-y-6">
-         <a href="https://worldmobiledeals.com/" className="flex items-center space-x-3">
+         <a href="https://wm.deals/" className="flex items-center space-x-3">
                        <Image 
                          src="/deals-logo.png" 
                          alt="World Mobile Deals" 
