@@ -39,7 +39,7 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div id="features" className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-darkGrey">Why We Recommend World Mobile</h2>
+          <h2 className="text-base font-semibold leading-7 text-darkGrey">How World Mobile Stands Out</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
             A Network Designed for You
           </p>

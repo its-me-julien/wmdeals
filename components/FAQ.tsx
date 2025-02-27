@@ -4,10 +4,10 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 // Your FAQ array
 const faqs = [
   {
-    question: "What is World Mobile?",
+    question: "What does World Mobile do?",
     answer:
-      "World Mobile is a mobile network that provides secure, high‑speed phone plans with extensive coverage across the USA. By integrating its network with established partner networks, World Mobile delivers the best coverage and reliable connectivity.",
-  },
+      "World Mobile is a mobile network provider offering secure, high-speed phone plans with extensive coverage across the USA. WM Deals is an independent platform that promotes World Mobile’s plans. By integrating its network with established partner networks, World Mobile delivers broad and reliable connectivity. For official details, visit World Mobile’s <a href=\"https://worldmobile.io\" class=\"text-indigo-600 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">website</a>.",
+  },  
   {
     question: "How does the referral link work?",
     answer: "More details coming soon.",

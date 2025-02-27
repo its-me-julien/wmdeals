@@ -37,8 +37,8 @@ export default function Coverage() {
               {/* Feature 1 */}
               <li className="flex gap-x-3">
                 <span className="text-black">
-                  <strong className="font-semibold text-black">More Than Just a Reseller.</strong><br></br> 
-                  Unlike many carriers that lease network access, World Mobile operates its own infrastructure, ensuring a unique, fast and reliable service.
+                  <strong className="font-semibold text-black">More Than A Simple Reseller.</strong><br></br> 
+                  World Mobile’s hybrid network blends proprietary infrastructure with established carrier partners for broader coverage.
                 </span>
               </li>
 
