@@ -68,8 +68,10 @@ export default function Header() {
             <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              The Best Web3 Phone Plans:<br></br>More Privacy, Best Coverage and Staking Benefits
-              </h1>
+              The Best Deals for World Mobile Phone Plans:</h1>
+              <br></br>
+              <h2 className="text-2xl font-bold tracking-tight sm:text-2xl">Enjoy More Privacy, Best Coverage and Staking Benefits</h2>
+              
 
               {/* Subtext */}
               <p className="mt-6 text-lg leading-8 text-lightGrey">
