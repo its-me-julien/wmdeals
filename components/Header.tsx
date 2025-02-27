@@ -45,7 +45,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex lg:flex-1">
             <a href="https://wm.deals/" className="flex items-center space-x-3">
-              <Image src="/web-app-manifest-512x512.png" alt="World Mobile Deals" width={40} height={40} priority />
+              <Image src="/wmdeals_white.png" alt="World Mobile Deals" width={40} height={40} priority />
               <span className="text-lg font-semibold tracking-wide">WM Deals</span>
             </a>
           </div>
