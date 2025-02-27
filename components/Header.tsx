@@ -67,7 +67,7 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+              <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
               The Best Deals for World Mobile Plans</h1>
               <br></br>
               <h2 className="text-2xl font-bold tracking-tight sm:text-2xl">Enjoy More Privacy, Best Coverage and Staking Benefits</h2>
