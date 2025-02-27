@@ -70,21 +70,7 @@
   --light-grey: #d4d4d4;
 }
 
-/* Define dark mode colors */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --white: white;
-    --black: black;
-    --dark-grey: #222; /* Slightly darker for contrast */
-    --grey: #999999;
-    --lightest-grey: #2a2a2a;
-    --primary: #e6d800; /* Slightly dimmed for dark mode */
-    --mid-grey: #424242;
-    --light-grey: #a8a8a8;
-  }
-}
+
 
 /* Apply global styles */
 body {

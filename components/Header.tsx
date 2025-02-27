@@ -38,7 +38,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="bg-white text-foreground">
+    <div className="bg-background text-foreground">
       {/* Navbar */}
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
@@ -46,7 +46,7 @@ export default function Header() {
           <div className="flex lg:flex-1">
             <a href="https://wm.deals/" className="flex items-center space-x-3">
               <Image src="/wmdeals_white.png" alt="World Mobile Deals" width={40} height={40} priority />
-              <span className="text-lg font-semibold tracking-wide">WM Deals</span>
+              <span className="text-lg font-semibold tracking-wide text-foreground">WM Deals</span>
             </a>
           </div>
           {/* Desktop Navigation */}
@@ -67,22 +67,22 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
-              <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
+              <h1 className="text-5xl font-bold tracking-tight sm:text-6xl text-foreground">
                 The Best Deals for World Mobile Plans
               </h1>
 
-              <h2 className="mt-4 text-2xl font-bold tracking-tight">
+              <h2 className="mt-4 text-2xl font-bold tracking-tight text-foreground">
                 Enjoy More Privacy, Best Coverage, and Staking Benefits
               </h2>
 
               {/* Subtext */}
-              <p className="mt-6 text-lg leading-8 text-gray-500">
+              <p className="mt-6 text-lg leading-8 text-foreground">
                 Traditional telecom companies trap you with contracts, hidden fees, and data tracking. At WM Deals, we showcase mobile plans that deliver reliable connectivity anywhere in the USA, without compromising your privacy or security.
               </p>
 
 
                    {/* Rotating Text Banner (TypeScript Safe) */}
-                   <div className="mt-6 h-10 flex justify-center items-center overflow-hidden">
+                   <div className="mt-6 h-10 flex justify-center items-center overflow-hidden text-foreground">
               <AnimatePresence mode="wait">
               <motion.span
                 key={index}
