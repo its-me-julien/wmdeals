@@ -116,7 +116,7 @@ export default function FAQ() {
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-midGrey">
-          Everything you need to know about WM Deals and our mobile plans.
+          Everything you need to know about WM Deals and the mobile plans we recommend.
         </p>
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10 mt-16">
           <dl className="space-y-6 divide-y divide-gray-900/10">
