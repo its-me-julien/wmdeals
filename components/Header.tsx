@@ -68,17 +68,18 @@ export default function Header() {
             <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
               <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
-              The Best Deals for World Mobile Plans</h1>
-              <br></br>
-              <h2 className="text-2xl font-bold tracking-tight sm:text-2xl">Enjoy More Privacy, Best Coverage and Staking Benefits</h2>
-              
+                The Best Deals for World Mobile Plans
+              </h1>
+
+              <h2 className="mt-4 text-2xl font-bold tracking-tight">
+                Enjoy More Privacy, Best Coverage, and Staking Benefits
+              </h2>
 
               {/* Subtext */}
-              <p className="mt-6 text-lg leading-8 text-lightGrey">
-              Traditional telecom companies lock you into contracts, hidden fees, and data tracking. At WM Deals, we highlight mobile plans that prioritize your privacy & security.
-                <br />
-                <br />
+              <p className="mt-6 text-lg leading-8 text-gray-500">
+                Traditional telecom companies trap you with contracts, hidden fees, and data tracking. At WM Deals, we showcase mobile plans that deliver reliable connectivity anywhere in the USA, without compromising your privacy or security.
               </p>
+
 
                    {/* Rotating Text Banner (TypeScript Safe) */}
                    <div className="mt-6 h-10 flex justify-center items-center overflow-hidden">
