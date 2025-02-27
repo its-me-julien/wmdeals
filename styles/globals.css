@@ -58,14 +58,14 @@
 
 /* Define light mode colors */
 :root {
-  --background: #ffffff;
+  --background: #F5E6C8;
   --foreground: #171717;
   --white: white;
   --black: black;
   --dark-grey: #333;
   --grey: #bdbdbd;
   --lightest-grey: whitesmoke;
-  --primary: #fff533;
+  --primary: #00FF66;
   --mid-grey: #525252;
   --light-grey: #d4d4d4;
 }

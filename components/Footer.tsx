@@ -20,7 +20,7 @@ const navigation: {
 } = {
   worldMobile: [
     { name: "World Mobile Links", href: "https://worldmobile.me/" },
-    { name: "World Mobile Info", href: "https://worldmobile.info/" },
+    { name: "Grow the Network", href: "https://worldmobile.info/" },
     { name: "Stake with The Club", href: "https://stake.worldmobile.club/" },
   ],
   community: [
@@ -46,17 +46,17 @@ export default function Footer() {
           <div className="space-y-6">
          <a href="https://wm.deals/" className="flex items-center space-x-3">
                        <Image 
-                         src="/deals-logo.png" 
-                         alt="World Mobile Deals" 
+                         src="/web-app-manifest-512x512.png" 
+                         alt="WM Deals" 
                          width={40} 
                          height={40} 
                          priority
                        />
-                       <span className="text-lg font-semibold tracking-wide">World Mobile Deals</span>
+                       <span className="text-lg font-semibold tracking-wide">WM Deals</span>
                      </a>
 
           <p className="text-sm text-lightGrey">
-            Get the best prices and deals on World Mobile plans and home internet.
+          WM Deals is an independent affiliate site. We’re not connected to World Mobile, and we may earn a commission when you use our links.
           </p>
 
             <div className="flex space-x-6">
@@ -77,7 +77,7 @@ export default function Footer() {
 
           {/* Footer Links Grid - 3 Columns */}
           <div className="mt-12 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0 sm:grid-cols-3">
-            <FooterSection title="World Mobile" links={navigation.worldMobile} />
+            <FooterSection title="Links" links={navigation.worldMobile} />
             <FooterSection title="Community" links={navigation.community} />
             <FooterSection title="Legal" links={navigation.legal} />
           </div>
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-12 border-t border-white/10 pt-8 text-center">
           <p className="text-xs text-lightGrey">
-            &copy; {new Date().getFullYear()} The Club. All rights reserved.
+            &copy; {new Date().getFullYear()} WM Deals. All rights reserved.
           </p>
         </div>
       </div>

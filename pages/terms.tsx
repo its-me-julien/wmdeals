@@ -4,10 +4,10 @@ export default function TermsOfService() {
   return (
     <>
       <Head>
-        <title>Terms of Service - World Mobile Deals</title>
+        <title>Terms of Service - WM Deals</title>
         <meta
           name="description"
-          content="Read the Terms of Service for World Mobile Deals. Understand the rules and conditions for using our services."
+          content="Read the Terms of Service for WM Deals. Understand the rules and conditions for using our services."
         />
         <link rel="canonical" href="https://wm.deals/terms/" />
       </Head>
@@ -18,7 +18,7 @@ export default function TermsOfService() {
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-black">1. Introduction</h2>
           <p className="mt-2 text-midGrey">
-            Welcome to World Mobile Deals. We showcase the latest discounts, exclusive offers, and promotions available for World Mobile Phone Plans and World Mobile Home Internet Plans. As an affiliate website, we earn a commission on successful referrals. By accessing our site, you agree to these Terms of Service.
+            Welcome to WM Deals. <br></br>We showcase the latest discounts, exclusive offers, and promotions available for World Mobile Phone Plans and World Mobile Home Internet Plans. WM Deals is an independent affiliate website and is not affiliated with, sponsored by, or endorsed by World Mobile. We earn a commission on successful referrals. By accessing our site, you agree to these Terms of Service.
           </p>
         </section>
 
@@ -32,14 +32,14 @@ export default function TermsOfService() {
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-black">3. Intellectual Property</h2>
           <p className="mt-2 text-midGrey">
-            All content on World Mobile Deals is owned by World Mobile Deals and its content sponsors. The World Mobile Logo is the property of World Mobile Group. You may not reproduce or distribute any materials without our prior written consent.
+            All content on WM Deals is owned by WM Deals and its content sponsors. Any trademarks, logos, or brand names referenced on this site are the property of their respective owners. WM Deals does not claim ownership of the World Mobile trademark or logo. You may not reproduce or distribute any materials without our prior written consent.
           </p>
         </section>
 
         <section className="mt-6">
           <h2 className="text-xl font-semibold text-black">4. Limitation of Liability</h2>
           <p className="mt-2 text-midGrey">
-            World Mobile Deals is not liable for any indirect, incidental, or consequential damages arising from your use of our services.
+            WM Deals provides informational content and promotions but does not guarantee the availability, pricing, or performance of any third-party services, including World Mobile’s offerings. WM Deals is not liable for any indirect, incidental, or consequential damages arising from your use of our website.
           </p>
         </section>
 

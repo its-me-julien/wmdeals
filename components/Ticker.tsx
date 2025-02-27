@@ -10,7 +10,7 @@ export default function Example() {
     <div className="flex items-center gap-x-6 bg-primary px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
       <p className="text-sm leading-6 text-black">
         <a href="https://wmtx.cc/mobile" >
-          <strong className="font-semibold">Join World Mobile</strong>
+          <strong className="font-semibold">Take Back Control</strong>
           <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
             <circle r={1} cx={1} cy={1} />
           </svg>

@@ -9,7 +9,7 @@ const navigation = [
   { name: "Plans", href: "#plans" },
   { name: "Features", href: "#features" },
   { name: "Coverage", href: "#coverage" },
-  { name: "Testimonials", href: "#reviews" },
+ // { name: "Testimonials", href: "#reviews" },
   { name: "FAQ", href: "#faq" },
 ];
 
@@ -21,6 +21,7 @@ const rotatingTexts: string[] = [
   "Break Free from Big Wireless.",
   "Unlimited Calls. Unlimited Data.",
   "Privacy First. Always.",
+  "A user-owned mobile network",
   "Not Just Another Carrier. A Revolution.",
 ];
 
@@ -37,25 +38,26 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="bg-black text-white">
+    <div className="bg-white text-foreground">
       {/* Navbar */}
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           {/* Logo */}
           <div className="flex lg:flex-1">
             <a href="https://wm.deals/" className="flex items-center space-x-3">
-              <Image src="/deals-logo.png" alt="World Mobile Deals" width={40} height={40} priority />
-              <span className="text-lg font-semibold tracking-wide">World Mobile Deals</span>
+              <Image src="/web-app-manifest-512x512.png" alt="World Mobile Deals" width={40} height={40} priority />
+              <span className="text-lg font-semibold tracking-wide">WM Deals</span>
             </a>
           </div>
           {/* Desktop Navigation */}
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 hover:text-primary">
-                {item.name}
-              </a>
-            ))}
-          </div>
+  {navigation.map((item) => (
+    <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 hover:underline">
+      {item.name}
+    </a>
+  ))}
+</div>
+
         </nav>
       </header>
 
@@ -65,31 +67,19 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
-              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                World Mobile Deals:<br />The Best Phone and Broadband Offers
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+              The Best Web3 Phone Plans:<br></br>More Privacy, Best Coverage and Staking Benefits
               </h1>
 
               {/* Subtext */}
               <p className="mt-6 text-lg leading-8 text-lightGrey">
-                Traditional telecom companies trap you with overpriced contracts, hidden fees, and data exploitation.
-                World Mobile is breaking the cycle with two US nationwide phone plans and a Global Access plan—no contracts, no tracking.
+              Traditional telecom companies lock you into contracts, hidden fees, and data tracking. At WM Deals, we highlight mobile plans that prioritize your privacy & security.
                 <br />
                 <br />
-                The <span className="text-primary font-semibold">user-owned</span> mobile network.
               </p>
 
-              {/* CTA Buttons */}
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#plans"
-                  className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-xs hover:bg-primary hover:text-black transition"
-                >
-                  View Plans
-                </a>
-              </div>
-
-              {/* Rotating Text Banner (TypeScript Safe) */}
-              <div className="mt-6 h-10 flex justify-center items-center overflow-hidden">
+                   {/* Rotating Text Banner (TypeScript Safe) */}
+                   <div className="mt-6 h-10 flex justify-center items-center overflow-hidden">
               <AnimatePresence mode="wait">
               <motion.span
                 key={index}
@@ -104,6 +94,18 @@ export default function Header() {
             </AnimatePresence>
 
               </div>
+
+              {/* CTA Buttons */}
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="#plans"
+                  className="rounded-md bg-black px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary hover:text-black transition"
+                >
+                  View Plans
+                </a>
+              </div>
+
+         
 
             </div>
           </div>

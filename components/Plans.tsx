@@ -6,6 +6,7 @@ const plans = [
   {
     id: "essential-usa",
     name: "Essential USA",
+    carrier: "Available on the World Mobile Network",
     description: "Best for Individuals.",
     price: "$59.00",
     priceValue: 59.0,
@@ -21,11 +22,12 @@ const plans = [
   {
     id: "advanced-usa",
     name: "Advanced USA",
+    carrier: "Available on the World Mobile Network",
     description: "Best for Power Users",
     price: "$85.00",
     priceValue: 85.0,
     features: [
-      "Unlimited calls, texts, and data with 30GB high‑speed priority access. Nationwide coverage with built-in SIM security insurance.",
+      "Unlimited calls, texts, and data with 30GB high‑speed priority access.",
       "Nationwide coverage with built-in SIM security insurance.",
       "Your personal data, secured with encryption.",
       "No contracts. No data selling. No corporate tracking.",
@@ -36,6 +38,7 @@ const plans = [
   {
     id: "global-access",
     name: "Global Access (Data Only)",
+    carrier: "Available on the World Mobile Network",
     description: "Best for Travelers.",
     price: "$70.00",
     priceValue: 70.0,
@@ -84,22 +87,19 @@ export default function Plans() {
   }, []);
 
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Header */}
         <div id="plans" className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-darkGrey">World Mobile Plans</h2>
+          <h2 className="text-base font-semibold leading-7 text-darkGrey">Web 3 Phone Plans</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
             Phone Plans for Every Need
           </p>
         </div>
 
-        {/* Subtext */}
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-midGrey">
           Nationwide coverage with built-in SIM security insurance. No contracts. No data selling. No corporate tracking.
         </p>
 
-        {/* Plan Cards */}
         <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8">
           {plans.map((plan) => (
             <div key={plan.id} className="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-midGrey lg:mt-8 xl:p-10">
@@ -107,18 +107,14 @@ export default function Plans() {
                 <h3 id={`tier-${plan.id}`} className="text-lg font-semibold leading-8 text-black">
                   {plan.name}
                 </h3>
-
-                {/* Badge */}
+                <p className="text-sm text-midGrey">{plan.carrier}</p>
                 <p className="mt-4 inline-block rounded-full bg-primary px-3 py-1 text-sm font-semibold text-black">
                   {plan.description}
                 </p>
-
                 <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="text-4xl font-bold tracking-tight text-black">{plan.price}</span>
                   <span className="text-sm font-semibold leading-6 text-midGrey">/month</span>
                 </p>
-
-                {/* Features List */}
                 <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-black">
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex gap-x-3">
@@ -134,15 +130,7 @@ export default function Plans() {
                   ))}
                 </ul>
               </div>
-
-              {/* Select Plan Button with Updated Link */}
-              <a
-                href="https://wmtx.cc/mobile"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-describedby={`tier-${plan.id}`}
-                className="mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 bg-black text-white hover:bg-primary hover:text-black transition"
-              >
+              <a href="https://wmtx.cc/mobile" target="_blank" rel="noopener noreferrer" className="mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 bg-black text-white hover:bg-primary hover:text-black transition">
                 {plan.buttonText}
               </a>
             </div>
