@@ -1,17 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
-// Define the navigation structure
-const navigation = [
-  { name: "Plans", href: "#plans" },
-  { name: "Features", href: "#features" },
-  { name: "Coverage", href: "#coverage" },
- // { name: "Testimonials", href: "#reviews" },
-  { name: "FAQ", href: "#faq" },
-];
 
 // Rotating banner text items
 const rotatingTexts: string[] = [
@@ -39,33 +30,12 @@ export default function Header() {
 
   return (
     <div className="bg-background text-foreground">
-      {/* Navbar */}
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
-          {/* Logo */}
-          <div className="flex lg:flex-1">
-            <a href="https://wm.deals/" className="flex items-center space-x-3">
-              <Image src="/wmdeals_white.png" alt="World Mobile Deals" width={40} height={40} priority />
-              <span className="text-lg font-semibold tracking-wide text-foreground">WM Deals</span>
-            </a>
-          </div>
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex lg:gap-x-12">
-  {navigation.map((item) => (
-    <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 hover:underline">
-      {item.name}
-    </a>
-  ))}
-</div>
-
-        </nav>
-      </header>
 
       {/* Hero Section */}
-      <div className="relative isolate pt-24 sm:pt-32 lg:pb-4">
-        <div className="py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl text-center">
+      <div className="relative isolate pt-12 sm:pt-16 lg:pb-4">
+  <div className="py-12 sm:py-16">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-3xl text-center">
               {/* Headline */}
               <h1 className="text-5xl font-bold tracking-tight sm:text-6xl text-foreground">
                 The Best Deals for World Mobile Plans
@@ -77,7 +47,7 @@ export default function Header() {
 
               {/* Subtext */}
               <p className="mt-6 text-lg leading-8 text-foreground">
-                Traditional telecom companies trap you with contracts, hidden fees, and data tracking. At WM Deals, we showcase mobile plans that deliver reliable connectivity anywhere in the USA, without compromising your privacy or security.
+                Traditional telecom companies trap you with contracts, hidden fees, and data tracking. At WM Deals, we showcase web3 mobile plans that deliver reliable connectivity anywhere in the USA, without compromising your privacy or security.
               </p>
 
 

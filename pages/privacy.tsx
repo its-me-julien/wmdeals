@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Privacy Policy - WM Deals</title>
+        <title>Privacy Policy | WM Deals</title>
         <meta
           name="description"
           content="Read the Privacy Policy for WM Deals. Learn how we collect, use, and protect your data."

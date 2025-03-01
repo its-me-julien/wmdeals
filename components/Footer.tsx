@@ -56,7 +56,7 @@ export default function Footer() {
                      </a>
 
           <p className="text-sm text-lightGrey">
-          WM Deals is an independent platform that promotes mobile plans. We are not owned by, operated by, or officially associated with World Mobile. Our site may contain affiliate links that help fund our content.
+          WM Deals is an independent platform. We are not owned by, operated by, or officially associated with any mobile or internet provider. Our site may contain affiliate links that help fund our content.
           </p>
 
             <div className="flex space-x-6">

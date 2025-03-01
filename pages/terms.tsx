@@ -4,7 +4,7 @@ export default function TermsOfService() {
   return (
     <>
       <Head>
-        <title>Terms of Service - WM Deals</title>
+        <title>Terms of Service | WM Deals</title>
         <meta
           name="description"
           content="Read the Terms of Service for WM Deals. Understand the rules and conditions for using our services."

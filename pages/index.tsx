@@ -1,11 +1,11 @@
-import Header from "@/components/Header";
-import Plans from "@/components/Plans";
-import Features from "@/components/Features";
-import Coverage from "@/components/Coverage";
-import FAQ from "@/components/FAQ";
+import Header from "@/components/homepage/Header";
+import Plans from "@/components/homepage/Plans";
+import Features from "@/components/homepage/Features";
+import Coverage from "@/components/homepage/Coverage";
+import FAQ from "@/components/homepage/FAQ";
 
-import Banner from "@/components/Banner";
-import Ticker from "@/components/Ticker";
+import Banner from "@/components/homepage/Banner";
+import Ticker from "@/components/homepage/Ticker";
 import Head from "next/head";
 
  {/* Comment:
@@ -17,21 +17,20 @@ import Head from "next/head";
 export default function Home() {
   return (
     <main className="bg-background text-foreground">
-      <Header />
-
       
-
       <Head>
-        <title>World Mobile Deals - The Best Web 3 Mobile Plans Deals</title>
+        <title>The Best Deals for World Mobile Phone & Broadband Plans | WM Deals</title>
         <meta
             name="description"
-            content="Find the best no-contract mobile plans with privacy-focused features, nationwide coverage, and reliable connectivity. Compare top offers at WM Deals."
+            content="Find the best mobile plans with privacy-focused features, nationwide coverage, and reliable connectivity."
         />
         <link rel="canonical" href="https://wm.deals/" />
     </Head>
 
+      <Header />
       <Ticker />
       <Plans />
+      
       <Features />
        {/* Comment:
       <Testimonials />

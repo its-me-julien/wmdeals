@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+
+
 export default function Document() {
   return (
     <Html lang="en">
@@ -44,6 +46,7 @@ export default function Document() {
           "description": "Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
         })}} />
       </Head>
+      
       <body className="antialiased">
         <Main />
         <NextScript />
