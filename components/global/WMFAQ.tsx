@@ -3,64 +3,7 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 // Your FAQ array
 const faqs = [
-  {
-    question: "What does World Mobile do?",
-    answer:
-      "World Mobile is a mobile network provider offering secure, high-speed phone plans with extensive coverage across the USA. WM Deals is an independent platform that promotes World Mobile’s plans. By integrating its network with established partner networks, World Mobile delivers broad and reliable connectivity. For official details, visit World Mobile’s <a href=\"https://worldmobile.io\" class=\"text-indigo-600 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">website</a>.",
-  },  
-  {
-    question: "How does the referral link work?",
-    answer: "More details coming soon.",
-  },
-  {
-    question: "Can I bring my own phone to World Mobile?",
-    answer:
-      "Yes. If you have an unlocked handset that is compatible with World Mobile’s network, you can use your own device. Plans start at just $59 per month with no setup or activation fees.",
-  },
-  {
-    question: "Can I keep my current number or get a new one?",
-    answer:
-      "You have the option to transfer your existing number or get a new one when joining WM Deals for a smooth transition.",
-  },
-  {
-    question: "Can I save on multiple lines?",
-    answer:
-      "Yes! World Mobile plans to offer family bundle discounts in the near future, allowing additional lines at a reduced cost.",
-  },
-  {
-    question: "How do I get World Mobile coupons or discounts?",
-    answer: "More details coming soon.",
-  },
-  {
-    question: "What is the cancellation policy?",
-    answer:
-      "World Mobile does not charge cancellation fees. You can cancel your plan at any time without penalties.",
-  },
-  {
-    question: "How can I contact World Mobile customer service?",
-    answer:
-      "You can reach customer support by submitting a ticket at <a href=\"https://worldmobile.zohodesk.com/portal/en/newticket\" class=\"text-indigo-600 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">this link</a>.",
-  },
-  {
-    question: "What is the World Mobile Essential USA Plan?",
-    answer:
-      "The Essential USA Plan provides unlimited calls, texts, and data with 10GB of high‑speed priority access for $59/month.",
-  },
-  {
-    question: "What is the World Mobile Advanced USA Plan?",
-    answer:
-      "The Advanced USA Plan offers unlimited calls, texts, and data with 30GB of high‑speed priority access for $85/month.",
-  },
-  {
-    question: "What is the World Mobile Global Access (Data Only) Plan?",
-    answer:
-      "The Global Access Plan provides 20GB of high‑speed data across more than 60 countries for $70/month, designed for international travelers.",
-  },
-  {
-    question: "Are World Mobile plans truly unlimited?",
-    answer:
-      "Yes. After you reach your high‑speed data allowance within a billing cycle, speeds may be temporarily reduced, but you will continue to have data access without interruptions.",
-  },
+  
   {
     question: "How does WM Deals make money?",
     answer:
@@ -103,7 +46,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className=" py-24 sm:py-32">
+    <section className="bg-white py-24 sm:py-32">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}

@@ -55,12 +55,6 @@ const usaMenu = [
 ]
 const usaCTA = { name: 'Get a Deal', href: '/#deal' }
 
-// Travel eSIMs dropdown
-const travelESIMsMenu = [
-  { name: 'Country', href: '/travel#country' },
-  { name: 'Regional', href: '/travel#regional' },
-  { name: 'Global', href: '/travel#global' },
-]
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -127,33 +121,7 @@ export default function Example() {
               </div>
             </Popover.Panel>
           </Popover>
-          {/* Travel eSIMs dropdown */}
-          <Popover className="relative">
-            <div className="flex items-center gap-x-1">
-              <Link href="/travel" className="text-sm font-semibold leading-6">
-                Travel eSIMs
-              </Link>
-              <Popover.Button className="focus:outline-none">
-                <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none" />
-              </Popover.Button>
-            </div>
-            <Popover.Panel
-              transition
-              className="absolute z-10 mt-3 w-screen max-w-xs overflow-hidden rounded-3xl bg-white/95 shadow-lg transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
-            >
-              <div className="p-4 space-y-2">
-                {travelESIMsMenu.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block font-semibold hover:bg-muted p-2 rounded-lg"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            </Popover.Panel>
-          </Popover>
+      
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           {/* Optional additional links */}
@@ -210,24 +178,6 @@ export default function Example() {
                     >
                       {usaCTA.name}
                     </a>
-                  </DisclosurePanel>
-                </Disclosure>
-                {/* Mobile Travel eSIMs dropdown */}
-                <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-muted focus:outline-none">
-                    Travel eSIMs
-                    <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
-                  </DisclosureButton>
-                  <DisclosurePanel className="mt-2 space-y-2">
-                    {travelESIMsMenu.map((item) => (
-                      <Link
-                        key={item.name}
-                        href={item.href}
-                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-muted"
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
                   </DisclosurePanel>
                 </Disclosure>
               </div>

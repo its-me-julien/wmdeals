@@ -53,7 +53,7 @@ export default function Example() {
               Google Unlimited Plus is a premium unlimited plan with extra perks ideal for short‑term travelers. Enjoy unlimited talk, text, and data in over 200 countries, plus 50GB of high‑speed data per person, unlimited hotspot tethering, shareable extras for tablets, and 6 months of YouTube Premium—all without a long‑term commitment.
             </p>
             <a
-              href="https://wmtx.cc/mobile"
+              href="https://wmtx.cc/googlefi"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block rounded-md px-4 py-2 text-sm font-semibold bg-primary text-black hover:bg-white hover:text-black transition"

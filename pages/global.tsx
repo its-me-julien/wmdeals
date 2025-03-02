@@ -2,7 +2,6 @@ import Header from "@/components/global/Header";
 import Plans from "@/components/global/Plans";
 import Recommendation from "@/components/global/Recommendation";
 import Recommendation2 from "@/components/global/Recommendation2";
-import PlanvsSim from "@/components/global/PlanvsSim";
 import FAQ from "@/components/global/WMFAQ";
 
 import Banner from "@/components/global/Banner";
@@ -31,9 +30,8 @@ export default function Home() {
       <Ticker />
       <Plans />
       <Recommendation />
-      <FAQ />
       <Recommendation2 />
-      <PlanvsSim />
+      <FAQ />
        {/* Comment:
       <Testimonials />
         */} 
