@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="bg-background text-foreground">
        <Head>
-      <title>The Best Deals for World Mobile Global Access Plan | WM Deals</title>
+      <title>World Mobile Global Access Plan | World Mobile Deals</title>
          <meta
         name="description"
         content="Discover the best global phone plans at WM Deals – 20GB high-speed data, 60+ country coverage, SIM security & no contract."

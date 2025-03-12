@@ -19,7 +19,7 @@ export default function Home() {
     <main className="bg-background text-foreground">
       
       <Head>
-        <title>The Best Deals for World Mobile Phone & Broadband Plans | WM Deals</title>
+        <title>World Mobile Phone Plans & Internet Deals</title>
         <meta
             name="description"
             content="Find the best mobile plans with privacy-focused features, nationwide coverage, and reliable connectivity."

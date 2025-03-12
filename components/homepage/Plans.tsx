@@ -35,22 +35,7 @@ const plans = [
     buttonText: "Get a Deal",
     image: "https://wm.deals/plans/advanced.jpg",
   },
-  {
-    id: "global-access",
-    name: "Global Access (Data Only)",
-    carrier: "Available on the World Mobile Network",
-    description: "Best for Travelers.",
-    price: "$70.00",
-    priceValue: 70.0,
-    features: [
-      "20GB of high‑speed data in over 60 countries.",
-      "Built-in SIM security insurance.",
-      "Your personal data, secured with encryption.",
-      "No contracts. No data selling. No corporate tracking.",
-    ],
-    buttonText: "Get a Deal",
-    image: "https://wm.deals/plans/global.jpg",
-  },
+  
 ];
 
 export default function Plans() {

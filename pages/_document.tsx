@@ -18,7 +18,7 @@ export default function Document() {
         <link rel="manifest" href="/site.webmanifest" />
 
         {/* Open Graph / Facebook Meta Tags */}
-        <meta property="og:title" content="WM Deals - No-Contract Mobile Phone Plans" />
+        <meta property="og:title" content="World Mobile Deals - No-Contract Mobile Phone Plans" />
         <meta
           property="og:description"
           content="Switch to World Mobile for no-contract mobile phone plans with better privacy, nationwide coverage, fast and reliable connectivity."
