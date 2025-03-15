@@ -13,14 +13,14 @@ const deals: Deal[] = [
     title: 'Newsletter Offer',
     description:
       'Be the first to hear about exclusive offers and the latest updates from World Mobile.',
-    href: 'https://wmtx.cc/newsletter',
+    href: 'https://wmtx.cc/mobile',
   },
   {
     id: 2,
     title: "Founder's Perks",
     description:
       'Join the first 1,000 subscribers to claim Network Founder status with exclusive perks.',
-    href: 'https://wmtx.cc/founder',
+    href: 'https://wmtx.cc/mobile',
   },
 ];
 
