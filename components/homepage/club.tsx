@@ -52,14 +52,14 @@ const DiscourseTopicSection: React.FC = () => {
             <h1 className="text-5xl font-bold tracking-tight sm:text-6xl text-foreground">
               Community Referrals
             </h1>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg ">
               Discover the latest referral codes from our community members below:
             </p>
           </div>
           <div className="mt-12 flex justify-center">
             <div className="w-full sm:w-3/5">
               <div className="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-midGrey lg:mt-8 xl:p-10">
-                <div id="discourse-comments" className="h-[800px]"></div>
+                <div id="discourse-comments" className="h-[600px]"></div>
               </div>
             </div>
           </div>
