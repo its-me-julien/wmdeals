@@ -4,7 +4,7 @@ const DiscourseTopic: React.FC = () => {
   return (
     <div className="w-full h-[600px] overflow-hidden">
       <iframe
-        src="https://worldmobile.club/t/world-mobile-referral/720"
+        src="https://worldmobile.club/t/world-mobile-referral/720?embed=true"
         title="World Mobile Referral Topic"
         className="w-full h-full"
         frameBorder="0"
