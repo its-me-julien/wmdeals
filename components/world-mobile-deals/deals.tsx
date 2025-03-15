@@ -35,7 +35,7 @@ const Deals: React.FC = () => {
           World Mobile Deals
         </h2>
         <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
-          Explore Our Top Offers
+          The Best Offers
         </p>
       </div>
 

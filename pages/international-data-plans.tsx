@@ -1,11 +1,11 @@
-import Header from "@/components/global/Header";
-import Plans from "@/components/global/Plans";
-import Recommendation from "@/components/global/Recommendation";
-import Recommendation2 from "@/components/global/Recommendation2";
-import FAQ from "@/components/global/WMFAQ";
+import Header from "@/components/international-data-plans/Header";
+import Plans from "@/components/international-data-plans/Plans";
+import Recommendation from "@/components/international-data-plans/Recommendation";
+import Recommendation2 from "@/components/international-data-plans/Recommendation2";
+import FAQ from "@/components/international-data-plans/WMFAQ";
 
-import Banner from "@/components/global/Banner";
-import Ticker from "@/components/global/Ticker";
+import Banner from "@/components/international-data-plans/Banner";
+import Ticker from "@/components/international-data-plans/Ticker";
 import Head from "next/head";
 
  {/* Comment:

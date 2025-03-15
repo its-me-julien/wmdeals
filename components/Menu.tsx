@@ -48,12 +48,12 @@ function ConditionalLink({ href, children, className }: ConditionalLinkProps) {
 
 // USA dropdown
 const usaMenu = [
-  { name: 'Plans', href: '/#plans' },
-  { name: 'Features', href: '/#features' },
-  { name: 'Coverage', href: '/#coverage' },
-  { name: 'FAQ', href: '/#faq' },
+  { name: 'Plans', href: '/world-mobile-deals/#plans' },
+  { name: 'Features', href: '/world-mobile-deals/#features' },
+  { name: 'Coverage', href: '/world-mobile-deals/#coverage' },
+  { name: 'FAQ', href: '/world-mobile-deals/#faq' },
 ]
-const usaCTA = { name: 'Get a Deal', href: '/#deal' }
+const usaCTA = { name: 'Get a Deal', href: 'https://wmtx.cc/mobile' }
 
 
 export default function Example() {
@@ -65,7 +65,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="https://wm.deals/" className="flex items-center space-x-3">
             <Image src="/wmdeals_white.png" alt="WM Deals" width={40} height={40} priority />
-            <span className="text-lg font-semibold tracking-wide">WM Deals</span>
+            <span className="text-lg font-semibold tracking-wide">World Mobile Deals</span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -83,14 +83,14 @@ export default function Example() {
         {/* Desktop Menu */}
         <div className="hidden lg:flex lg:gap-x-12 items-center">
           {/* Global Plans link (changed from dropdown) */}
-          <Link href="/global" className="text-sm font-semibold leading-6">
-            Global Plans
+          <Link href="/international-data-plans/" className="text-sm font-semibold leading-6">
+            International Plans
           </Link>
           {/* USA dropdown */}
           <Popover className="relative">
             <div className="flex items-center gap-x-1">
               <Link href="/" className="text-sm font-semibold leading-6">
-                USA
+                U.S. Phone Plans
               </Link>
               <Popover.Button className="focus:outline-none">
                 <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none" />
@@ -133,9 +133,9 @@ export default function Example() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm">
           <div className="flex items-center justify-between">
             <a href="https://wm.deals/" className="flex items-center space-x-3 -m-1.5 p-1.5">
-              <span className="sr-only">WM Deals</span>
+              <span className="sr-only">World Mobile Deals</span>
               <Image src="/wmdeals_white.png" alt="WM Deals" width={40} height={40} priority />
-              <span className="text-lg font-semibold tracking-wide">WM Deals</span>
+              <span className="text-lg font-semibold tracking-wide">World Mobile Deals</span>
             </a>
             <button
               type="button"
@@ -151,15 +151,15 @@ export default function Example() {
               <div className="space-y-2 py-6">
                 {/* Mobile Global Plans link (changed from dropdown) */}
                 <Link
-                  href="/global"
+                  href="/international-data-plans/"
                   className="block rounded-lg py-2 pl-3 pr-3 text-base font-semibold leading-7 hover:bg-muted"
                 >
-                  Global Plans
+                  International Plans
                 </Link>
                 {/* Mobile USA dropdown */}
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-muted focus:outline-none">
-                    USA
+                    U.S. Phone Plans
                     <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">

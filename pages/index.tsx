@@ -1,20 +1,6 @@
-import Header from "@/components/homepage/Header";
-import Plans from "@/components/homepage/Plans";
-import Features from "@/components/homepage/Features";
-import Coverage from "@/components/homepage/Coverage";
-import FAQ from "@/components/homepage/FAQ";
-import Deals from "@/components/homepage/deals";
-import Promo from "@/components/homepage/promo-code";
-import Banner from "@/components/homepage/Banner";
-import Ticker from "@/components/homepage/Ticker";
-import Club from "@/components/homepage/club";
+import Header from "@/components/world-mobile-deals/Header";
 import Head from "next/head";
 
- {/* Comment:
-  
-  import Testimonials from "@/components/Testimonials";
-  
-  */}
 
 export default function Home() {
   return (
@@ -30,16 +16,6 @@ export default function Home() {
     </Head>
 
       <Header />
-      <Ticker />
-      <Plans />
-      
-      <Features />
-      < Promo/>
-      < Deals/>
-      < Club/>
-      <Coverage />  
-      <Banner />
-      <FAQ />
     </main>
   );
 }
