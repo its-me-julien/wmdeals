@@ -24,13 +24,13 @@ function ConditionalLink({ href, children, className }: ConditionalLinkProps) {
   const router = useRouter()
   let computedHref = href
 
-  if (href.startsWith('/global/#')) {
+  if (href.startsWith('/international-data-plans#')) {
     const hash = href.split('#')[1]
-    computedHref = router.pathname === '/global' ? `#${hash}` : `/global/#${hash}`
+    computedHref = router.pathname === '/international-data-plans' ? `#${hash}` : `/international-data-plans#${hash}`
   } else if (href.startsWith('/travel#')) {
     const hash = href.split('#')[1]
-    computedHref = router.pathname === '/travel' ? `#${hash}` : `/travel#${hash}`
-  } else if (href.startsWith('https://wm.deals/#')) {
+    computedHref = router.pathname === '/world-mobile-deals' ? `#${hash}` : `/world-mobile-deals#${hash}`
+  } else if (href.startsWith('https://wm.deals/world-mobile-deals#')) {
     const hash = href.split('#')[1]
     computedHref = router.pathname === '/' ? `#${hash}` : `/#${hash}`
   }
@@ -89,7 +89,7 @@ export default function Example() {
           {/* USA dropdown */}
           <Popover className="relative">
             <div className="flex items-center gap-x-1">
-              <Link href="/" className="text-sm font-semibold leading-6">
+              <Link href="/world-mobile-deals/" className="text-sm font-semibold leading-6">
                 U.S. Phone Plans
               </Link>
               <Popover.Button className="focus:outline-none">
