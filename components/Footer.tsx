@@ -14,26 +14,26 @@ const navigation: {
 } = {
   customers: [
     { name: "Network Reviews", href: "https://worldmobile.review/" },
-    { name: "Wireless Deals", href: "https://wm.deals/" },
+    { name: "World Mobile Deals", href: "https://wm.deals/" },
     { name: "Referral Codes", href: "https://refermobile.com/" },
     { name: "Get Help", href: "https://worldmobile.club/c/help/71" },
   ],
   tokenHolders: [
-    { name: "Buy WMTx", href: "/participate/where-to-buy-wmtx/" },
+    { name: "Buy WMTx", href: "https://worldmobile.info/participate/where-to-buy-wmtx/" },
     { name: "Stake WMTx", href: "https://stake.worldmobile.club/" },
     { name: "Ecosystem", href: "https://worldmobile.me/" },
     { name: "Event Calendar", href: "https://worldmobile.club/calendar" },
   ],
   operators: [
-    { name: "Getting Started", href: "/getting-started-with-world-mobile/" },
+    { name: "Getting Started", href: "https://worldmobile.info/getting-started-with-world-mobile/" },
     { name: "EarthNodes (ENO)", href: "https://worldmobile.club/c/earthnodes/5" },
     { name: "AirNodes (ANO)", href: "https://worldmobile.club/c/airnode/6" },
     { name: "HEX Guardians", href: "https://worldmobile.club/c/hex-guardians/8" },
   ],
   community: [
     { name: "Forum", href: "https://worldmobile.club/" },
-    { name: "Milestones", href: "/timeline/" },
-    { name: "Grants", href: "/participate/grant-hub/" },
+    { name: "Milestones", href: "https://worldmobile.info/timeline/" },
+    { name: "Grants", href: "https://worldmobile.info/participate/grant-hub/" },
   ],
 };
 
@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           {/* Branding & Social */}
           <div className="space-y-6">
-            <a href="https://worldmobile.info/" className="flex items-center space-x-3">
+            <a href="https://wm.deals/" className="flex items-center space-x-3">
               <Image 
                 src="/web-app-manifest-192x192.png" 
                 alt="World Mobile Deals Logo" 
