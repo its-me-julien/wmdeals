@@ -57,7 +57,7 @@ export default function Footer() {
             </a>
 
             <p className="text-sm text-lightGrey">
-              WM Deals is an independent platform, operated by <a href="https://worldmobile.club/" className="text-lightGrey hover:text-primary transition">The Club</a>. We are not owned by or officially associated with any mobile or internet provider. Our site may contain affiliate links that help fund our content.
+              WM Deals is an independent platform, operated by <a href="https://worldmobile.club/" className="text-lightGrey hover:text-primary transition">The Club</a>. Our site may contain affiliate links that help fund our content.
             </p>
           </div>
 
